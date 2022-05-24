@@ -1,0 +1,526 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logonav{
+    width: 100px;
+    height: 70px;
+    margin-right: 40%;
+    margin-left: 10%;
+}
+nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(246, 243, 243);
+}
+nav>#links>a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+nav>#links>a:hover{
+    color: #1b58a7;
+}
+#picture{
+    background-image: url(../img/headlogo2.jpg);
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#picture>img{
+    margin-left: 15%;
+    margin-top: 4%;
+}
+#picture>div{
+    display: inline-block;
+    margin-left: 10%;
+}
+#tagline{
+    width: 40%;
+    height: 30vh;
+    background-color: #0b295044;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+#tagline>*{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#tagline>span,p{
+    line-height: 30px;
+}
+#tagline>span{
+    padding-top: 10px;
+    font-weight: bolder;
+}
+#tagline>h1{
+    font-size: 3em;
+}
+#whatisit{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    color: rgb(75, 74, 74);
+}
+#description{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(75, 74, 74);
+}
+#aboutrobo{
+    width: 45%;
+    margin-left: 5%;
+    line-height: 25px;
+}
+#aboutrobo>h2{
+    margin-bottom: 10px;
+}
+#description>img{
+    margin-right: 5%;
+}
+#team{
+    color: rgb(75, 74, 74);
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+#theteam>img{
+    margin-left: 24%;
+}
+#forteacher{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#teacher>img{
+    margin-bottom: 15px;
+}
+#teacher>h3>a{
+    text-decoration: none;
+    color: rgb(33, 32, 32);
+}
+#teacher>h3>a:hover{
+    color: #1b58a7;
+    font-size: 1.2emdel;
+}
+.people{
+    width: 300px;
+    text-align: center;
+}
+.people>h3>a{
+    text-decoration: none;
+    color: rgb(33, 32, 32);
+}
+.people>img{
+    margin-bottom: 15px;
+}
+.people>h3>a:hover{
+    color: #1b58a7;
+}
+#students{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left{
+    margin-left: 4%;
+}
+#right{
+    margin-right: 4%;
+}
+#achievements{
+    color: rgb(75, 74, 74);
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+#achievetxt{
+    width: 40%;
+    color: rgb(75, 74, 74);
+    margin-left: 5%;
+}
+#achieves{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#achievetxt>h2{
+    margin-bottom: 15px;
+}
+#achievetxt>p{
+    line-height: 35px;
+}
+#diploms{
+    width: 47%;
+}
+#rightpicture{
+    margin-right: 5%;
+}
+#photogallery{
+    color: rgb(75, 74, 74);
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+#gallery{
+    width: 55%;
+    overflow-x: scroll;
+    display: flex;
+    height: 517px;
+    margin-right: 2%;
+    text-align: center;
+    margin-left: 5%;
+}
+#gallery>img{
+    width: 760px;
+    height: 500px;
+    margin-right: 2%;
+}
+#photos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#arduino{
+    margin-right: 5%;
+}
+#aboutstudent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#aboutstudent>img{
+    padding-right: 9%;
+}
+#name{
+    color: rgb(44, 44, 44);
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+#abouttxt{
+    width: 45%;
+    margin-left: 9%;
+}
+#abouttxt>p{
+    line-height: 35px;
+}
+#picturesimg{
+    margin-left: 9%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#leftimg{
+    margin-right: 5%;
+}
+footer{
+    width: 100%;
+    height: 50vh;
+    margin-top: 100px;
+    color: rgb(75, 74, 74);
+    background-color: rgb(246, 243, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#networks{
+    width: 25%;
+    margin-right: 18%;
+}
+#imgfooter{
+    width: 25%;
+    margin-left: 25%;
+}
+footer>#networks>a{
+    color: #7d7d7d;
+    width: 30px;
+    height: 30px;
+}
+#networks>a:hover{
+    color: #1b58a7;
+}
+#vk{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    color: #7d7d7d;
+}
+#vk:hover{
+    color: #1b58a7;
+}
+#youtube{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    color: #7d7d7d;
+}
+#youtube:hover{
+    color: #1b58a7;
+}
+#insta{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    color: #7d7d7d;
+}
+#insta:hover{
+    color: #1b58a7;
+}
+#facebook{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    color: #7d7d7d;
+}
+#facebook:hover{
+    color: #1b58a7;
+}
+#copyright{
+    color: rgb(49, 48, 48);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#centerimg{
+    margin-right: 5%;
+}
+#centerpictureteacher{
+    text-align: center;
+    margin-left: 26%;
+}
+@media(max-width:720px){
+    nav{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+    #logonav{
+        margin-left: 40%;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    nav>#links>a{
+        display: flex;
+        flex-direction: column;
+    }
+    #links{
+        width: 40%;
+        text-align: center;
+        line-height: 23px;
+        margin-left: 8%;
+    }
+    #picture{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #picture>#tagline{
+        text-align: center;
+    }
+    #picture>img{
+        width: 200px;
+        margin-left: 0%;
+        margin-bottom: 20px;
+    }
+    #tagline{
+        height: 33vh;
+    }
+    #picture>div{
+        margin-left: 0%;
+    }
+    #tagline>h1{
+        font-size: 1.3em;
+    }
+    #tagline>p{
+        font-size: .7em;
+        line-height: 20px;
+    }
+    #whatisit{
+        font-size: 2.2em;
+    }
+    #description{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #aboutrobo{
+        margin-top: 10px;
+        width: 60%;
+        margin-right: 5%;
+        margin-bottom: 40px;
+    }
+    #description>img{
+        width: 200px;
+        margin-left: 6%;
+    }
+    #theteam>img{
+        width: 300px;
+        margin-left: 10%;
+    }
+    #forteacher{
+        margin-left: 2.5%;
+    }
+    #students{
+        display: flex;
+        flex-direction: column;
+    }
+    #left{
+        margin-left: 0%;
+    }
+    #right{
+        margin-right: 0%;
+    }
+    .people{
+        margin-bottom: 30px;
+    }
+    #achievetxt{
+        margin-top: 20px;
+        width: 60%;
+        margin-right: 5%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    #achieves{
+        display: flex;
+        flex-direction: column;
+    }
+    #diploms>img{
+        margin-bottom: 30px;
+    }
+    #diploms{
+    }
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 55vh;
+    }
+    #imgfooter{
+        margin-left: 0%;
+        margin-right: 25%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    #networks{
+        width: 70%;
+        margin-right: 0%;
+        text-align: center;
+        margin-left: 0%;
+        margin-bottom: 50px;
+    }
+    #copyright{
+        text-align: center;
+        margin-left: 5%;
+        font-size: .8em;
+    }
+    #gallery{
+        width: 60%;
+        height: 217px;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-bottom: 50px;
+    }
+    #gallery>img{
+        width: 300px;
+        height: 200px;
+    }
+    #photos{
+        display: flex;
+        flex-direction: column;
+    }
+    #arduino{
+        width: 250px;
+        margin-right: 0%;
+    }
+    #aboutstudent{
+        display: flex;
+        flex-direction: column;
+    }
+    #abouttxt{
+        width: 60%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    #aboutstudent>img{
+        padding-right: 0%;
+    }
+    #picturesimg{
+        display: flex;
+        flex-direction: column;
+    }
+    .danilafirst{
+        width: 300px;
+        height: 200px;
+        margin-bottom: 30px;
+        margin-left: 6%;
+    }
+    #danilarightimg{
+        width: 300px;
+        height: 300px;
+        margin-left: 6%;
+    }
+    #centerpictureteacher{
+        width: 350px;
+        margin-left: 7%;
+    }
+    .birulabot{
+    }
+    .birulaleftimg{
+        margin-bottom: 30px;
+        margin-left: 6%;
+    }
+    #birularightimg{
+        margin-left: 6%;
+    }
+    .nadeykoleftimg{
+        width: 350px;
+        height: 200px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #nadeykorightimg{
+        width: 350px;
+    }
+    .sakovleftimg{
+        width: 300px;
+        height: 250px;
+        margin-bottom: 30px;
+        margin-left: 6%;
+    }
+    .sakovcentrimg{
+        margin-bottom: 30px;
+        margin-left: 6%;
+    }
+    #sakovrightimg{
+        margin-left: 6%;
+    }
+    .likovaleftimg{
+        margin-bottom: 30px;
+        margin-left: 6%;
+    }
+    #likovarightimg{
+        margin-left: 6%;
+    }
+    .smirnovleftimg{
+        width: 300px;
+        height: 200px;
+        margin-bottom: 30px;
+        margin-left: 6%;
+    }
+    .smirnovcentrimg{
+        margin-bottom: 30px;
+        margin-left: 6%;
+    }
+    #smirnovrightimg{
+        margin-left: 6%;
+    }
+}
